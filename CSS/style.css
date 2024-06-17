@@ -1,0 +1,131 @@
+
+/*aqui vão todas as coisas base do site*/
+
+:root{
+
+    --font_tg: Kaushan Script, cursive;
+    --font_tp: Salsa, cursive;
+    --font_txt: Roboto, sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+article{
+
+    background-color: gray;
+
+    max-width: 800px;
+    min-width: 480px;
+
+    margin: auto;
+
+}
+
+article section {
+
+    padding: 10px 30px;
+
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: var(--font_tg);
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+
+}
+
+h2, h3, h4, h5{
+    
+    font-family: var(--font_tp);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: var(--font_txt);
+    font-size: 14px;
+}
+
+
+
+body{
+
+    background-color: white;
+}
+
+img.banner{
+
+    padding: 0px;
+    width: 100%;
+    max-width: 800;
+    min-width: 120;
+
+    display: block;
+    margin: auto;
+
+    margin-top: 20px;
+
+}
+
+ul li{
+
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+/* passou daqui e coisa dessa página específica*/
+
+img.alta {
+
+    padding: 0px;
+    width: 100%;
+    max-width: 360px;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+div.container{
+
+    margin: 10px 0px;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
+div.container h3{
+
+    margin-top: 0px;
+}
+
+div.container div{
+
+    margin-top: 20px;
+}
