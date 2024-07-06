@@ -1,0 +1,165 @@
+
+
+:root{
+
+    --font_tg: Kaushan Script, cursive;
+    --font_tp: Salsa, cursive;
+    --font_txt: Roboto, sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*ESTILOS COMUM A TODOS*/
+
+body{
+    background-color: #6B6C90;
+}
+
+ main{
+
+    width: 800px;
+    background-color: rgb(221, 216, 195);
+    margin: auto;
+    margin-top: 72px;
+
+    padding-bottom: 30px;
+ }
+
+ p{
+
+    font-family: var(--font_txt);
+    font-size: 16px;
+
+ }
+
+
+
+ ul{
+
+    list-style-position: inside;
+    margin: 10px 40px;
+
+    font-family: var(--font_txt);
+    font-size: 16px;
+ }
+
+ li{
+
+    margin-top: 10px;
+ }
+
+
+ strong{
+
+    font-family: var(--font_tp);
+    font-weight: normal;
+ }
+
+ section {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ /*H1 H2 H3 H4 H5*/
+
+h1, h2{
+    text-align: center;
+}
+
+h2, h3, h4{
+
+    font-family: var(--font_tp);
+}
+
+h3, h4, p{
+
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ h1{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-family: var(--font_tg);
+    font-size: 48px;
+    
+ }
+
+ h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    font-size: 32px;
+ }
+
+ h3{
+    font-size: 24px;
+ }
+
+ h4{
+    font-size: 20px;
+ }
+
+ /*ESTILOS DE TÍTULO*/
+
+ img.tittle{
+
+    width: 800px;
+    display: block;
+    margin: auto;
+ }
+
+ /*TÍTULOS DE TÓPICO*/
+
+ img.topic{
+    
+    width: 720px;
+    height: 180px;
+
+    display: block;
+    margin: auto;
+    
+ }
+
+ /*QUADRO INFO*/
+
+section.quadro{
+
+    width: 720px;
+    background-color: rgb(97, 87, 75);
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+}
+
+div.quadro{
+
+    width: 100%;
+    margin: 10px 10px 10px 0px;
+}
+
+section.quadro p{
+
+    color: rgb(235, 230, 244);
+}
+
+section.quadro h3{
+
+    color: rgb(235, 230, 244);
+}
+
+/*TABELA INFO*/
+
+

@@ -1,0 +1,76 @@
+
+/*FLEX; GRADE DE ITENS*/
+
+div.cont_grade{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    width: 720px;
+    margin: auto;
+
+    margin-bottom: 10px;
+
+}
+
+.item_grade{
+
+    margin: auto;
+    text-align: center;
+    width: 220px;
+}
+
+
+img.item_grade{
+
+    width: 220px;
+}
+
+div.item_grade p{
+
+    margin: 0px;
+}
+
+
+/*FLEX: ITENS ALTERNATÍVEIS*/
+
+div.cont_altern_queen{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 720px;
+    margin: auto;
+    margin-bottom: 20px;
+
+    border-bottom: 4px solid black;
+}
+
+img.cont_altern{
+
+    width: 180px;
+}
+
+.cont_altern_img{
+
+    width: 180px;
+   
+}
+
+h4.cont_altern{
+
+    margin: 0px;
+}
+
+p.cont_altern{
+
+    margin: 0px;
+}
+
+.cont_altern_text{
+
+    width: 520px;
+   
+}
