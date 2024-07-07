@@ -34,12 +34,12 @@ body{
 
     font-family: var(--font_txt);
     font-size: 16px;
-
+    margin-top: 10px;
  }
 
 
 
- ul{
+ ul, ol{
 
     list-style-position: inside;
     margin: 10px 40px;
@@ -51,6 +51,13 @@ body{
  li{
 
     margin-top: 10px;
+ }
+
+ ol.parag, ul.parag{
+
+   margin-left: 80px;
+   list-style-position: outside;
+
  }
 
 
@@ -79,9 +86,13 @@ h2, h3, h4{
 
 h3, h4, p{
 
-    margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+h3, h4{
+
+   margin-top: 20px;
 }
 
  h1{
@@ -96,7 +107,7 @@ h3, h4, p{
 
  h2{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     
     font-size: 32px;
  }
@@ -116,6 +127,8 @@ h3, h4, p{
     width: 800px;
     display: block;
     margin: auto;
+
+    margin-bottom: 20px;
  }
 
  /*TÍTULOS DE TÓPICO*/
@@ -127,6 +140,8 @@ h3, h4, p{
 
     display: block;
     margin: auto;
+
+    margin-top: 20px;
     
  }
 
@@ -138,8 +153,10 @@ section.quadro{
     background-color: rgb(97, 87, 75);
 
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
+
+    padding-bottom: 20px;
 
     border-radius: 20px;
 }
@@ -155,11 +172,45 @@ section.quadro p{
     color: rgb(235, 230, 244);
 }
 
+section.quadro ul{
+
+   color: rgb(235, 230, 244);
+}
+
 section.quadro h3{
 
     color: rgb(235, 230, 244);
 }
 
 /*TABELA INFO*/
+
+table{
+
+   width: 720px;
+   margin: auto;
+   margin-top: 20px;
+
+   border-collapse: collapse;
+   text-align: left;
+}
+
+th, td{
+
+   border: black;
+
+   border-bottom: 1px solid;
+   padding: 10px;
+   width: 360px;
+
+   font-family: var(--font_txt);
+   font-weight: normal;
+}
+
+td{
+
+   font-family: var(--font_tp);
+}
+
+
 
 

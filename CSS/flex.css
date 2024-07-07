@@ -1,4 +1,32 @@
 
+/*FLEX; COLUNAS DE TEXTO*/
+
+div.text_column{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+
+    justify-content: space-between;
+    
+
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+div.text_column div{
+
+    width: 350px;
+}
+
+div.text_column div p, h4{
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
 /*FLEX; GRADE DE ITENS*/
 
 div.cont_grade{
@@ -38,11 +66,13 @@ div.item_grade p{
 div.cont_altern_queen{
 
     display: flex;
+    gap: 30px;
     justify-content: space-between;
     align-items: center;
 
     width: 720px;
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 
     border-bottom: 4px solid black;
@@ -50,12 +80,14 @@ div.cont_altern_queen{
 
 img.cont_altern{
 
-    width: 180px;
+    width: 240px;
+    height: 160px;
 }
 
 .cont_altern_img{
 
-    width: 180px;
+    width: 240px;
+    height: 160px;
    
 }
 
