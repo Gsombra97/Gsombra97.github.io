@@ -53,7 +53,7 @@ body{
     margin-top: 10px;
  }
 
- ol.parag, ul.parag{
+ ol.--parag, ul.--parag{
 
    margin-left: 80px;
    list-style-position: outside;
@@ -61,10 +61,11 @@ body{
  }
 
 
- strong{
+ strong, span{
 
     font-family: var(--font_tp);
     font-weight: normal;
+    font-size: 18px;
  }
 
  section {
@@ -91,7 +92,6 @@ h3, h4, p{
 }
 
 h3, h4{
-
    margin-top: 20px;
 }
 
@@ -106,9 +106,7 @@ h3, h4{
  }
 
  h2{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    
+    margin-top: 10px;
     font-size: 32px;
  }
 
@@ -120,20 +118,19 @@ h3, h4{
     font-size: 20px;
  }
 
- /*ESTILOS DE TÍTULO*/
+ /*ESTILOS DE IMAGEM*/
 
- img.tittle{
+ img.--tittle{
 
     width: 800px;
     display: block;
     margin: auto;
 
+    margin-top: 10px;
     margin-bottom: 20px;
  }
 
- /*TÍTULOS DE TÓPICO*/
-
- img.topic{
+ img.--topic{
     
     width: 720px;
     height: 180px;
@@ -141,54 +138,46 @@ h3, h4{
     display: block;
     margin: auto;
 
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+ }
+
+ img.--banner{
+
+   width: 720px;
+
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+
     
  }
 
  /*QUADRO INFO*/
 
-section.quadro{
+div.--quadro{
 
-    width: 720px;
-    background-color: rgb(97, 87, 75);
+   max-width: 720px;
+   background-color: rgb(190, 152, 56);
 
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
+   color: rgb(232, 232, 232);
 
-    padding-bottom: 20px;
+   margin: auto;
+   
+   padding-top: 10px;
+   padding-bottom: 20px;
 
-    border-radius: 20px;
-}
-
-div.quadro{
-
-    width: 100%;
-    margin: 10px 10px 10px 0px;
-}
-
-section.quadro p{
-
-    color: rgb(235, 230, 244);
-}
-
-section.quadro ul{
-
-   color: rgb(235, 230, 244);
-}
-
-section.quadro h3{
-
-    color: rgb(235, 230, 244);
+   border-radius: 20px;
 }
 
 /*TABELA INFO*/
 
 table{
 
-   width: 720px;
+   width: 90%;
    margin: auto;
-   margin-top: 20px;
+   margin-top: 10px;
 
    border-collapse: collapse;
    text-align: left;
@@ -206,10 +195,6 @@ th, td{
    font-weight: normal;
 }
 
-td{
-
-   font-family: var(--font_tp);
-}
 
 
 

@@ -1,7 +1,7 @@
 
 /*FLEX; COLUNAS DE TEXTO*/
 
-div.text_column{
+div.--text_column{
 
     display: flex;
     flex-wrap: wrap;
@@ -15,12 +15,12 @@ div.text_column{
 
 }
 
-div.text_column div{
+div.--text_column div{
 
     width: 350px;
 }
 
-div.text_column div p, h4{
+div.--text_column div p, div.--text_column div h4{
 
     margin-left: 0px;
     margin-right: 0px;
@@ -29,7 +29,7 @@ div.text_column div p, h4{
 
 /*FLEX; GRADE DE ITENS*/
 
-div.cont_grade{
+div.--cont_grade{
 
     display: flex;
     flex-wrap: wrap;
@@ -38,11 +38,12 @@ div.cont_grade{
     width: 720px;
     margin: auto;
 
+    margin-top: 10px;
     margin-bottom: 10px;
 
 }
 
-.item_grade{
+.--item_grade{
 
     margin: auto;
     text-align: center;
@@ -50,20 +51,19 @@ div.cont_grade{
 }
 
 
-img.item_grade{
+img.--item_grade{
 
     width: 220px;
 }
 
-div.item_grade p{
+div.--item_grade p{
 
     margin: 0px;
 }
 
-
 /*FLEX: ITENS ALTERNATÍVEIS*/
 
-div.cont_altern_queen{
+div.--cont_altern_queen{
 
     display: flex;
     gap: 30px;
@@ -78,31 +78,57 @@ div.cont_altern_queen{
     border-bottom: 4px solid black;
 }
 
-img.cont_altern{
+img.--cont_altern{
 
     width: 240px;
     height: 160px;
 }
 
-.cont_altern_img{
+.--cont_altern_img{
 
     width: 240px;
     height: 160px;
    
 }
 
-h4.cont_altern{
+h4.--cont_altern{
 
     margin: 0px;
 }
 
-p.cont_altern{
+p.--cont_altern{
 
     margin: 0px;
 }
 
-.cont_altern_text{
+.--cont_altern_text{
 
     width: 520px;
    
 }
+
+/*FLEX: TÍTULO EM FLEX*/
+
+div.flex-bigimg{
+
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 800px;
+    margin: auto;
+}
+
+img.img-bigimg{
+
+    width: 300px;
+    height: 600px;
+}
+
+div.text-bigimg div.--quadro{
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
