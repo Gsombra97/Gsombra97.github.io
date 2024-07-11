@@ -156,7 +156,7 @@ h3, h4{
 
  /*QUADRO INFO*/
 
-div.--quadro{
+.--quadro{
 
    max-width: 720px;
    background-color: rgb(190, 152, 56);
@@ -164,6 +164,7 @@ div.--quadro{
    color: rgb(232, 232, 232);
 
    margin: auto;
+   margin-top: 20px;
    
    padding-top: 10px;
    padding-bottom: 20px;
@@ -195,7 +196,35 @@ th, td{
    font-weight: normal;
 }
 
+/**/
 
+img.insert-in-text-big{
 
+   float: right;
+   max-width: 350px;
+   margin: 10px;
+   display: block;
+}
 
+img.insert-in-text-middle{
+
+   float: right;
+   max-width: 240px;
+   margin: 10px;
+   display: block;
+}
+
+img.insert-in-text-small{
+
+   float: right;
+   max-width: 175px;
+   margin: 10px;
+   display: block;
+}
+
+.img-insert{
+
+   margin: auto;
+   width: 740px;
+}
 

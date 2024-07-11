@@ -1,7 +1,5 @@
 
 
-
- 
   document.addEventListener('DOMContentLoaded', function() {
  
 
@@ -29,7 +27,3 @@
 
 
 }); //FECHAMENTO do DOMContentLoaded
-
-
-
-

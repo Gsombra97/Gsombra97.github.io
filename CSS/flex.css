@@ -109,26 +109,5 @@ p.--cont_altern{
 
 /*FLEX: TÍTULO EM FLEX*/
 
-div.flex-bigimg{
 
-
-    display: flex;
-    justify-content: space-between;
-
-    width: 800px;
-    margin: auto;
-}
-
-img.img-bigimg{
-
-    width: 300px;
-    height: 600px;
-}
-
-div.text-bigimg div.--quadro{
-
-    margin-left: 40px;
-    margin-right: 40px;
-
-}
 
