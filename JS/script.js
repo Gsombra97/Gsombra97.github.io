@@ -13,7 +13,7 @@
 
       //BOTÃO TO-TOP
 
-      const scrollToTop = document.getElementById("buttom-top")
+      const scrollToTop = document.querySelector('#buttom-top')
       
       scrollToTop.addEventListener('click', function() {
         window.scrollTo({
