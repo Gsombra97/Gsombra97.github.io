@@ -22,6 +22,9 @@ body{
 
  main{
 
+    display: flex;
+    flex-direction: column;
+
     width: 800px;
     background-color: rgb(221, 216, 195);
     margin: auto;

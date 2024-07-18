@@ -107,7 +107,37 @@ p.--cont_altern{
    
 }
 
-/*FLEX: TÍTULO EM FLEX*/
+/*FLEX CHARAC*/
+
+div.flex-charac{
+
+    display: flex;
+
+    width: 720px;
+    margin: auto;
+
+}
+
+div.flex-charac img{
+
+    max-width: 350px;
+    margin: 30px;
+}
+
+div.flex-charac h1{
+
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+div.flex-charac span{
+
+    
+    font-size: 20px;
+}
 
 
 
